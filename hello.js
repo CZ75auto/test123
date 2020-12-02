@@ -11,9 +11,10 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World!\n');
+    
 });
 
 //監聽剛剛新建的server，開啟後就執行裡面的console.log
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server runnqqqqing at http://${hostname}:${port}/`);
 });
